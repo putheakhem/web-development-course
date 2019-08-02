@@ -79,4 +79,19 @@
 * MySQL  INSERT, UPDATE, DELETE Statement
 * Lab 4. Create POS using PHP, MySQL
 
+### [WEEK IV]()
 
+* AJAX Introduction
+* AJAX Request
+* AJAX Response
+* AJAX Database
+* Lab 4. Create POS with PHP
+
+* jQuery Introduction
+* jQuery Syntax
+* jQuery Selector
+* jQuery Events 
+* jQuery AJAX Introduction
+* jQuery Load
+* jQuery GET/POST
+* Lab 5. Create POS with PHP, jQuery, AJAX
