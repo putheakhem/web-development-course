@@ -40,7 +40,7 @@
 * Ubuntu Basic Command
 * Install PHP, Web Server, Database MySQL
 * Introduction to PHP and Syntax Overview
-* PHP Constant, Data Type, Variables
+* PHP Variable Types, Constants
 * PHP String
 * PHP Array
 * PHP If...else...elseif

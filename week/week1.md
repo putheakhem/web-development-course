@@ -4,7 +4,7 @@
 * Ubuntu Basic Command
 * Install PHP, Web Server, Database MySQL
 * Introduction to PHP and Syntax Overview
-* PHP Constant, Data Type, Variables
+* PHP Variable Types, Constants
 * PHP String
 * PHP Array
 * PHP If...else...elseif
@@ -106,6 +106,7 @@ And the last one is `poweroff`. Sometimes you need to poweroff directly from you
 * PHP suport a large number of majors protocol such as POP3, IMAP, and LDAP, from `PHP4` added support for Java and distributed ojbect architectures. 
 
 2. Syntax Overview
+
 The PHP parsing engine needs a way to differentiate PHP code from other elements in the page. There are four ways to do this −
 
     * Canonical PHP tags
@@ -136,3 +137,30 @@ The PHP parsing engine needs a way to differentiate PHP code from other elements
     ```bash
         <script language="PHP">....</script>
     ```
+
+
+###  PHP Variable Types, Constants
+
+> Here are the most important things to know about variables in PHP.
+* All variables in PHP are denoted with a leading dollar sign ($).
+* The value of a variable is the value of its most recent assignment.
+* Variables are assigned with the = operator, with the variable on the left-hand side and the expression to be evaluated on the right.
+* Variables can, but do not need, to be declared before assignment.
+* Variables in PHP do not have intrinsic types - a variable does not know in advance whether it will be used to store a number or a string of characters.
+
+* Variables used before they are assigned have default values.
+
+* PHP does a good job of automatically converting types from one to another when necessary.
+
+
+1. PHP Variable Types
+
+    * Integers: are whole numbers, without a decimal point like 2019.
+    * Doubles:  are flaoting-point numbers, like 3.14159, or 201.9.
+    * Booleans: have only two possible values either `true` or `false`.
+    * NULL: is a special type that only has one value NULL.
+    * Strings: are sequences of characters 
+    * Array: are nmae and indexed collections of other values.
+    * Ojbects: are instances of programmer-defined classes.
+    * Resources: are special vairables that hold references to resources external to PHP(such as database connections)
+
