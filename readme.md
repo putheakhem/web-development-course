@@ -95,3 +95,42 @@
 * jQuery Load
 * jQuery GET/POST
 * Lab 5. Create POS with PHP, jQuery, AJAX
+
+### [WEEK V]()
+
+* Laravel : Overview
+* Laravel : Application Structure
+* Laravel : Configuration
+* Laravel : Routing
+* Lab 5. Introduction to MVC
+
+### [WEEK VI]()
+
+* Laravel : Middleware 
+* Laravel : Controllers
+* Laravel : Request
+* Laravel : Cookie
+* Lab 6. Create Simple Blog with Laravel
+
+### [WEEK VII]()
+
+* Laravel :  Response 
+* Laravel :  Views
+* Laravel :  Redirections
+* Laravel :  Working with Database
+* Laravel :  Error & Logging
+* Laravel :  Form
+* Laravel :  Localization
+* Lab 6. Create Simple Blog with Laravel
+
+### [WEEK VIII]()
+
+* Laravel : Session
+* Laravel : Validation
+* Laravel : File Uploading
+* Laravel : Ajax
+* Laravel : Error Handling
+* Laravel : Security 
+* Lab 7. Create Advanced Blog With Laravel
+
+> We're reserved to change the outline without noticed. Thanks
