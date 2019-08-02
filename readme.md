@@ -34,7 +34,7 @@
 
 # Course Outline 
 
-### [Week I]() 
+### [Week I](/week/week1.md) 
 
 * Introduction to Ubuntu 18.04
 * Ubuntu Basic Command
