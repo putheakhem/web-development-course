@@ -39,8 +39,7 @@
 * Introduction to Ubuntu 18.04
 * Ubuntu Basic Command
 * Install PHP, Web Server, Database MySQL
-* Setup Local Development Server
-* Introduction to PHP
+* Introduction to PHP and Syntax Overview
 * PHP Constant, Data Type, Variables
 * PHP String
 * PHP Array
