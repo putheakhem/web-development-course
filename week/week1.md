@@ -191,6 +191,7 @@ What is PHP Constant ?
 > They are sequences of characters, PHP supports string operations.
 
 1. String Concatenation Operator
+
     To concatenate two string variables together, we us dot(`.`) operators.
 
     ```bash
@@ -204,12 +205,14 @@ What is PHP Constant ?
 
 
 2. Get The Length of a String
+
     The `strlen()` function is used to find the lenght of a string. 
     ```bash
         echo strlen("web development course");
     ```
 
 3. Search For a Specific Text Within a String
+
     The `strpos()` function is used to search for a string or character with a string.
 
     ```bash 
@@ -219,6 +222,7 @@ What is PHP Constant ?
     ```
 
 4. Count The Number of Words in a String
+
     PHP `str_word_count()` function is used to count the number of word in a string. 
 
     ```bash
@@ -228,6 +232,7 @@ What is PHP Constant ?
     ```
 
 5. Reverse a String
+
     The PHP `strrev()` function reverses a string. 
     ```bash 
         <?php
@@ -237,6 +242,7 @@ What is PHP Constant ?
     please try to reverse: `web development course` to `course development web`. 
 
 6. Replace Text Within a String
+
     The PHP `str_replace()` function replaces some characters with some other characters in string.
 
     ```bash
