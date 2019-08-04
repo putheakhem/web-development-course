@@ -191,59 +191,57 @@ What is PHP Constant ?
 > They are sequences of characters, PHP supports string operations.
 
 1. String Concatenation Operator
+    To concatenate two string variables together, we us dot(`.`) operators.
 
-To concatenate two string variables together, we us dot(`.`) operators.
-
-```bash
-    <?php
-        $string1="Hello World";
-        $string2="1234";
-        
-        echo $string1 . " " . $string2;
-   ?>
-```
+    ```bash
+        <?php
+            $string1="Hello World";
+            $string2="1234";
+            
+            echo $string1 . " " . $string2;
+    ?>
+    ```
 
 
 2. Get The Length of a String
-The `strlen()` function is used to find the lenght of a string. 
-```bash
-    echo strlen("web development course");
-```
+    The `strlen()` function is used to find the lenght of a string. 
+    ```bash
+        echo strlen("web development course");
+    ```
 
 3. Search For a Specific Text Within a String
-The `strpos()` function is used to search for a string or character with a string.
+    The `strpos()` function is used to search for a string or character with a string.
 
-```bash 
-<?php 
-    echo strpos("web development course", "course");
-?>
-```
+    ```bash 
+    <?php 
+        echo strpos("web development course", "course");
+    ?>
+    ```
 
 4. Count The Number of Words in a String
-PHP `str_word_count()` function is used to count the number of word in a string. 
+    PHP `str_word_count()` function is used to count the number of word in a string. 
 
-```bash
-    <?php
-        echo str_word_count("web development course");
-    ?>
-
-```
+    ```bash
+        <?php
+            echo str_word_count("web development course");
+        ?>
+    ```
 
 5. Reverse a String
-The PHP `strrev()` function reverses a string. 
-```bash 
-    <?php
-        echo strres("web development course");
-    ?>
-```
-please try to reverse: `web development course` to `course development web`. 
+    The PHP `strrev()` function reverses a string. 
+    ```bash 
+        <?php
+            echo strres("web development course");
+        ?>
+    ```
+    please try to reverse: `web development course` to `course development web`. 
 
 6. Replace Text Within a String
-The PHP `str_replace()` function replaces some characters with some other characters in string.
+    The PHP `str_replace()` function replaces some characters with some other characters in string.
 
-```bash
-    <?php
-        echo str_replace("web", "php web", "web development course");
-    ?>
-```
+    ```bash
+        <?php
+            echo str_replace("web", "php web", "web development course");
+        ?>
+    ```
 
