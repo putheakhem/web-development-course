@@ -142,9 +142,9 @@ The PHP parsing engine needs a way to differentiate PHP code from other elements
 ###  PHP Variable Types, Constants
 
 > Here are the most important things to know about variables in PHP.
-* All variables in PHP are denoted with a leading dollar sign ($).
+* All variables in PHP are denoted with a leading dollar sign `$`.
 * The value of a variable is the value of its most recent assignment.
-* Variables are assigned with the = operator, with the variable on the left-hand side and the expression to be evaluated on the right.
+* Variables are assigned with the `=` operator, with the variable on the left-hand side and the expression to be evaluated on the right.
 * Variables can, but do not need, to be declared before assignment.
 * Variables in PHP do not have intrinsic types - a variable does not know in advance whether it will be used to store a number or a string of characters.
 
@@ -163,4 +163,27 @@ The PHP parsing engine needs a way to differentiate PHP code from other elements
     * Array: are nmae and indexed collections of other values.
     * Ojbects: are instances of programmer-defined classes.
     * Resources: are special vairables that hold references to resources external to PHP(such as database connections)
+
+2. PHP Constant 
+
+What is PHP Constant ? 
+
+* A constant is a name or an identifier for a simple value
+* A constant value cannot change during the execution of the script
+* By default, a constant is case-sensitive
+* By convention, constant identifiers are always uppercase. A constant name starts with a letter or underscore, followed by any number of letters, numbers, or underscores
+
+```bash
+<?php
+   define("MINSIZE", 50);
+   
+   echo MINSIZE;
+   echo constant("MINSIZE"); // same thing as the previous line
+?>
+```
+* We define constant `MINSIZE` with value 50.
+* We print out `MINSIZE` value.
+* We use `constant()` function to get value of `MINSIZE`
+
+> Note: Only scalar data (boolean, integer, float and string) can be contained in constants.
 
