@@ -107,9 +107,9 @@ And the last one is `poweroff`. Sometimes you need to poweroff directly from you
 
 2. Syntax Overview
 
-The PHP parsing engine needs a way to differentiate PHP code from other elements in the page. There are four ways to do this −
+The PHP parsing engine needs a way to differentiate PHP code from other elements in the page. There are four ways to do this
 
-    * Canonical PHP tags
+* Canonical PHP tags
     The most universally effective PHP tag style is: 
 
     ```bash
@@ -117,14 +117,14 @@ The PHP parsing engine needs a way to differentiate PHP code from other elements
         .....
         ?>
     ```
-    * Short-open tags
+* Short-open tags
     Short or short-open tags look like this 
     ```bash
         <? 
 
         ?>
     ```
-    * ASP-Style 
+* ASP-Style 
     ASP-style tags mimic the tag used by Active Server Pages to delineate code blocks.
 
     ```bash
@@ -132,12 +132,11 @@ The PHP parsing engine needs a way to differentiate PHP code from other elements
 
         %>
     ```
-    * HTML script tags
+* HTML script tags
     HTML script tags look like this 
     ```bash
         <script language="PHP">....</script>
     ```
-
 
 ###  PHP Variable Types, Constants
 
@@ -212,7 +211,6 @@ The `strlen()` function is used to find the lenght of a string.
 ```
 
 3. Search For a Specific Text Within a String
-
 The `strpos()` function is used to search for a string or character with a string.
 
 ```bash 
