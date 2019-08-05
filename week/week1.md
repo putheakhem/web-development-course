@@ -251,3 +251,43 @@ What is PHP Constant ?
         ?>
     ```
 
+### PHP Array
+
+> An array is a special variable, which can hold more than one value at a time.
+
+```bash 
+    $cars1 = "Volvo";
+    $cars2 = "BMW";
+    $cars3 = "Toyota";
+```
+
+1. Create an Array in PHP
+
+    In PHP, there are three types of arrays:
+    
+    * Indexed arrays - Arrays with a numeric index
+        ```bash 
+            $cars = array("Volvo", "BMW", "Toyota");
+        ```
+        The index can be assigned automatically.  the index can be assigned manually:
+        ```bash
+            $cars[0] = "Volvo";
+            $cars[1] = "BMW";
+            $cars[2] = "Toyota";
+        ```
+
+    * Associative arrays - Arrays with named keys
+        ```bash
+            $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+        ```
+        or 
+        ```bash 
+            $age['Peter'] = "35";
+            $age['Ben'] = "37";
+            $age['Joe'] = "43";
+        ```
+        Associative arrays are arrays that use named keys that you assign to them.
+        
+
+
+    * Multidimensional arrays - Arrays containing one or more arrays
