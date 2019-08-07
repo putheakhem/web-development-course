@@ -1,7 +1,7 @@
 ## Week I
 
 * Introduction to Ubuntu 18.04 
-* Ubuntu Basic Command
+* Ubuntu Basic Command & Basic `GIT` usage
 * Install PHP, Web Server, Database MySQL
 * Introduction to PHP and Syntax Overview
 * PHP Variable Types, Constants
