@@ -345,3 +345,131 @@ If you want to execute one code of the several condtion are true. We use `elseif
         code to be executed if condition is false;
 
 ```
+
+
+### PHP Switch 
+
+If you want to select one of many blocks of code to be executed
+
+```bash 
+<?php
+
+switch ($i)		 
+{
+
+$i = 2;
+		  
+case 0: 
+    echo "Zero ";		
+    break;
+		  
+case 1:		
+    echo "One";
+    break;
+		  
+case 2:
+			
+    echo "Two";            
+    break;		
+}
+ 
+?>
+
+```
+
+> We can use default switch case statement. By use keyword : `default`
+
+### PHP For Loop
+
+> In `for loop` specified condition is predifined. 
+
+```bash
+    for (initialization; condition; increment){
+        code to be executed;
+    }
+```
+
+Example : 
+```bash
+    <html>
+    <body>
+        
+        <?php
+            $a = 0;
+            $b = 0;
+            
+            for( $i = 0; $i<5; $i++ ) {
+                $a += 10;
+                $b += 5;
+            }
+            
+            echo ("At the end of the loop a = $a and b = $b" );
+        ?>
+    
+    </body>
+    </html>
+```
+
+### PHP While Loop
+
+> `while loop` executes the statement while the specific condition is true. 
+
+```bash
+    while (condition) {
+        code to be executed;
+    }
+```  
+
+Example: 
+
+```bash
+    <html>
+    <body>
+    
+        <?php
+            $i = 0;
+            $num = 50;
+            
+            while( $i < 10) {
+                $num--;
+                $i++;
+            }
+            
+            echo ("Loop stopped at i = $i and num = $num" );
+        ?>
+        
+    </body>
+    </html>
+
+```
+
+
+### do-while 
+
+> `do-while loop` execute the statement then check the condition, it mean if the condition is false in that case `one time` statement execute. 
+
+```bash
+    do {
+        code to be executed;
+    } while (condition);
+```
+
+Example: 
+
+```bash
+    html>
+    <body>
+      <?php
+         $i = 0;
+         $num = 0;
+         
+         do {
+            $i++;
+         }
+         
+         while( $i < 10 );
+         echo ("Loop stopped at i = $i" );
+      ?>
+    </body>
+</html>
+```
