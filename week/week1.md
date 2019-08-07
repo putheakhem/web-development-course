@@ -291,3 +291,10 @@ What is PHP Constant ?
 
 
     * Multidimensional arrays - Arrays containing one or more arrays
+
+### PHP IF else elseif 
+
+1. PHP IF Statment
+
+    In if  Statements Output will appear when only Condition must be true.
+    > If Statement works  much like the English language statement, “if X happens, then do Y.”
