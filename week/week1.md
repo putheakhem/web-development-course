@@ -294,7 +294,54 @@ What is PHP Constant ?
 
 ### PHP IF else elseif 
 
-1. PHP IF Statment
+1. PHP IF Else Statment
 
     In if  Statements Output will appear when only Condition must be true.
     > If Statement works  much like the English language statement, “if X happens, then do Y.”
+
+```bash
+    if (condition)
+        code to be executed if condition is true;
+    else
+        code to be executed if condition is false;
+```
+> let check example:
+
+```bash
+    <html>
+    <body>
+    
+        <?php
+            $weather = 28;
+            
+            if ($weather <= 28)
+                echo "The weather is nice"; 
+            else
+                echo "Too hot!"; 
+        ?>
+    
+    </body>
+    </html>
+```
+
+> Exercise 1. Write a PHP program to check whether the given number is a `negative` or `positive` number.   
+
+> Exercise 2. Write a PHP program to check whether the given number is a `odd` or `even` number. 
+
+
+2. The ElseIf Statement
+
+If you want to execute one code of the several condtion are true. We use `elseif` statment
+
+> Syntax 
+
+```bash
+
+    if (condition)
+         code to be executed if condition is true;
+    else if (condition)
+         code to be executed if condition is true;
+    else
+        code to be executed if condition is false;
+
+```
