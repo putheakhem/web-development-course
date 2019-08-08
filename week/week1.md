@@ -434,7 +434,6 @@ Example:
                 $num--;
                 $i++;
             }
-            
             echo ("Loop stopped at i = $i and num = $num" );
         ?>
         
@@ -465,11 +464,58 @@ Example:
          
          do {
             $i++;
-         }
-         
-         while( $i < 10 );
+         } while( $i < 10 );
          echo ("Loop stopped at i = $i" );
       ?>
     </body>
 </html>
 ```
+
+### PHP Function 
+
+> Function are self contained block of statement which used to perform any specific task. 
+
+##### Types of Function 
+
+* System defined function or build in function
+* User defined function
+
+###### Advantages of Function
+
+> A function is created once but used many time from more than one program. 
+
+> It reduce duplication within a program.
+
+###### How to define Function. 
+
+A function will be executed by a call to the function.
+
+Syntax: 
+```bash
+    function function_name( ) {
+	    code to be executed;
+    }	
+```
+
+1. A simple function 
+
+```bash
+<?php
+ 
+//define function and implements it
+
+function writeName() {
+    echo "Web Development";
+}  
+	  
+// call function whenever you need
+
+writeName();
+	 
+writeName();
+ 
+?>
+
+```
+
+
