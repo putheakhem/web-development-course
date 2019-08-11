@@ -16,6 +16,90 @@
 
 
 
+### PHP Form 
+
+PHP Simple form 
+
+>index.php
+
+```bash
+<html>
+    <body>
+
+    <form action="welcome.php" method="post">
+    Name: <input type="text" name="name"><br>
+    E-mail: <input type="text" name="email"><br>
+    <input type="submit">
+    </form>
+
+    </body>
+</html>
+
+```
+
+> welcome.php
+
+```bash
+    <html>
+        <body>
+
+        Welcome <?php echo $_POST["name"]; ?><br>
+        Your email address is: <?php echo $_POST["email"]; ?>
+        </body>
+    </html>
+
+```
+
+* `$_GET` is an array of variables passed to the current script via the `URL` parameters.
+
+* `$_POST` is an array of variables passed to the current script via the HTTP `POST` method.
+
+1. PHP Form Validation 
+
+> Think SECURITY when processing PHP forms!
+
+> These pages will show how to process PHP forms with security in mind. Proper validation of form data is important to protect your form from hackers and spammers!
+
+* Text Fields
+
+    ```bash 
+        Name: <input type="text" name="name">
+        E-mail: <input type="text" name="email">
+        Website: <input type="text" name="website">
+        Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+    ```
+* Radio Buttons
+
+    ```bash
+        Gender:
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="other">Other
+    ```
+* Validate Form Data With PHP
+
+```bash
+    <?php
+    // define variables and set to empty values
+    $name = $email = $gender = $comment = $website = "";
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = test_input($_POST["name"]);
+    $email = test_input($_POST["email"]);
+    $website = test_input($_POST["website"]);
+    $comment = test_input($_POST["comment"]);
+    $gender = test_input($_POST["gender"]);
+    }
+
+    function test_input($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+    }
+    ?>
+
+```
 
 #### Lab 2 
 
